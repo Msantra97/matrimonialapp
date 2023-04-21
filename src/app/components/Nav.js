@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function Nav() {
   return (
@@ -34,7 +35,8 @@ export default function Nav() {
             <a herf="#" className="text-xl    font-[sans] hover:text-cyan-500 duration-500">Contact</a>
           </li>
         </ul>
-          <button className='w-[130px] h-[50px] bg-transparent border-[2px] border-solid border-black outline-none rounded-[8px] cursor-pointer text-[1.1em] text-black font[500] ml-[40px] ease-[0.5s] hover:bg-white hover:text-red-400 hover:border-red-400'>Login</button>
+          <button className='w-[130px] h-[50px] bg-transparent border-[2px] border-solid border-black outline-none rounded-[8px] cursor-pointer text-[1.1em] text-black font[500] ml-[40px] ease-[0.5s] hover:bg-white hover:text-red-400 hover:border-red-400' onClick={}>Login</button>
+          {/* <Link href="/pages/account"><span>Login</span></Link> */}
       </div>
       <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
       <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
