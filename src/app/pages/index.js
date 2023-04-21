@@ -3,7 +3,7 @@ import Footer from '../components/Footer.js'
 import Gallery from '../components/Gallery.js'
 import Nav from '../components/Nav.js'
 import Service from '../components/Service.js'
-// import  About  from './components/About.js'
+import  About  from '../components/About.js'
 export default function App() {
     return (
     <div>
@@ -12,7 +12,7 @@ export default function App() {
          <Nav/>
         <Carousel/>
        <Gallery/>
-      {/* <About/> */}
+      <About/>
       <Service/>
       <Footer/>
        

@@ -4,23 +4,17 @@ export default function Service() {
   return (
     <div className=" relative w-full justify-center bg-cover bg-no-repeat mt-2 mb-2 px-4 py-4 grid md:grid-cols-2 gap-4">
 
-      <img className='w-full rounded-3xl' src="./img/service/sre2.jpg" alt="no-image" />
+      <img className='w-full h-auto mt-[70px] rounded-3xl' src="./img/service/sre2.jpg" alt="no-image" />
 
       <div className=' mt-22 mb-22'>
         <h2 className='text-4xl mt-16 ml-16 font-[cursive]'>Our Services</h2>
 
-        <ul className="text-base font-light font-serif mt-16 p-10 max-w-md space-y-1 list-disc list-inside">
+        <ul className="text-base font-light font-serif mt-6 p-10 max-w-md space-y-1 list-disc list-inside">
           <li>
           Photo Shoot
           </li>
           <li>
           Video Profiling
-          </li>
-          <li>
-          Vaastu Consultation
-          </li>
-          <li>
-          Astrology Consultancy
           </li>
           <li>
           Pre-Marital Counselling
@@ -55,9 +49,6 @@ export default function Service() {
           </li>
           <li>
           Team visit at your place for a detailed assesment of your living style and Preparing an insight into the details of the approved unregistered data persons
-          </li>
-          <li>
-          Taking feedback from your end
           </li>
           <li>
           Discussing your profile with the approved proposals and taking feedback business details (India only) proposals before they are discussed with the other side. from them. 
