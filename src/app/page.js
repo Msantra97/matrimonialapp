@@ -6,6 +6,7 @@ import { Inter } from 'next/font/google'
 // import  About  from './components/About.js'
 // import  Service  from './components/Service.js'
 import  Login from './components/Login.js'
+// import  Register from './components/Register.js'
 export default function Home() {
   return (
   
@@ -19,8 +20,10 @@ export default function Home() {
        
   //  </div>
   <div>
-         <Login/> 
         
+    
+         <Login/> 
+         {/* < Register/> */}
   </div>
   )
 }
