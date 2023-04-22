@@ -50,7 +50,7 @@ export default function Gallery() {
                 </div>
             </div>
 
-            {/* <div className="grid gap-4">
+            <div className="grid gap-4">
                 <div>
                     <img className="h-auto max-w-full rounded-lg" src="./img/gallery/pic13.jpg" alt="" />
                 </div>
@@ -69,7 +69,7 @@ export default function Gallery() {
                     <div>
                         <img className="h-auto max-w-full rounded-lg" src="./img/gallery/pic16.jpg" alt="" />
                     </div>
-            </div> */}
+            </div>
 
         </div>
 

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function service() {
+export default function About() {
   return (
 
     <div className=" relative w-full justify-center bg-cover bg-no-repeat mt-2 mb-2 px-4 py-4 grid md:grid-cols-2 gap-4">
